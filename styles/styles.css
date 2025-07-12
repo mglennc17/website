@@ -1,18 +1,47 @@
-.main-fonts {
+html {
+    height:100%;
+}
+
+body {
+    height:100%;
+    margin: 0 0 0 0;
     font-family:'Times New Roman', Times, serif;
+    text-align: center;
+
 }
 
-#main-heading {
-    font-size: 42px;
+.header {
+    display: flex;
+    box-sizing:border-box;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px;
+    height: 100px;
+    width: 100%;
+    border-bottom: 2px dotted grey;
+    padding:50px;
 }
 
-.p1 {
-    text-align:center;
+.textbox {
+    font-size:20px;
+    display:flex;
+    flex-direction: column;
+    margin: 0 auto;
+    height:50%;
+    width:30%;
+    min-width: 500px;
+    align-items: center;
+    justify-content: center;
 }
-.image {
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
-    width:500px;
-    height:auto;
+
+.logo {
+    text-decoration: none;
+    color:black;
+    font-size:40px;
+}
+
+.links {
+    list-style: none;
+    display:flex;
+    gap:10px;
 }
