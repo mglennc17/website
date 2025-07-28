@@ -11,7 +11,7 @@ window.onload = function () {
 
 
     function updateCounter() {
-        incrementButton.innerText = Math.round(counter * 10) / 10;
+        document.getElementById("counter").innerText = Math.round(counter * 10) / 10;
     }
 
     function autoButtonAccumulator() {
@@ -29,7 +29,7 @@ window.onload = function () {
         updateCounter();
     });
 
-    document.getElementById("upgradeButton").addEventListener("click", function() {
+    /*document.getElementById("upgradeButton").addEventListener("click", function() {
         if(counter >= upgradeButtonCost) {
             counter -= upgradeButtonCost;
             incrementButtonPower += upgradeButtonPower;
@@ -50,6 +50,6 @@ window.onload = function () {
             document.getElementById("autoButton").innerHTML = `+${autoButtonPower*2}/sec<br><br>cost:${autoButtonCost}`;
             document.getElementById("autoPower").innerText = `+${autoButtonPower}/sec`;
         }
-    })
+    })*/
 
 }

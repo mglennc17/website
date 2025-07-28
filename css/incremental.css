@@ -1,0 +1,84 @@
+@font-face {
+    font-family: munro;
+    src: url(../fonts/munro.ttf);
+}
+
+html {
+    
+    text-align:center;
+    font-family:'munro';
+}
+
+body {
+    height: 100%;
+}
+
+button {
+    text-align:center;
+    background-color:azure;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#mainBox {
+    position:absolute;
+    inset: 0;
+    margin-inline:auto;
+    width:75%;
+    background-color:rgb(61, 71, 75);
+}
+
+#counter {
+    height:50px;
+    width:80%;
+    position: absolute;
+    z-index: 1;
+    inset: 11% 0 auto 0;
+    transform: translatey(-50%);
+    margin-inline:auto;
+    font-size:100px;
+    text-align:left;
+    color:rgb(224, 210, 204);
+}
+
+#top-menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:auto;
+}
+
+#bottom-menu {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    height:auto;
+}
+
+#clickerBox {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    width:100%;
+}
+
+/*=======Increment=Button=============*/
+
+#incrementButton {
+    border:0;
+    width:50%;
+    height:auto;
+}
+#incrementButton:hover {
+    transform: scale(1.05);
+}
+#incrementButton:active {
+    transform: scale(1);
+}
+
+/*====================================*/
